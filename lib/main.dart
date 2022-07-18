@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       navigatorKey: AppRouter.navkey,
+
       onGenerateRoute: (settings) {
         String? name = settings.name;
         dynamic aru = settings.arguments;
